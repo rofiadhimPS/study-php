@@ -29,3 +29,7 @@ var_dump(1.2e-3);
 
 echo "Underscore in floating point : ";
 var_dump(1_234_234_234.12);
+
+// integer overflow
+echo "Integer Overflow : ";
+var_dump(9_223_372_036_854_775_807);
