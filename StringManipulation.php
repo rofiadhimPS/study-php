@@ -27,4 +27,6 @@ echo $name[3] . PHP_EOL;
 // variable parsing
 
 echo "Hello $name, Happy Learning PHP" . PHP_EOL;
+echo "Hello {$name}s, Happy Learning PHP" . PHP_EOL; //curly brace
+
 
