@@ -16,4 +16,13 @@ var_dump($valueInt);
 $valueFloat = (float)"1.01";
 var_dump($valueFloat);
 
+// accessing char
+
+$name = "Adhim";
+echo $name[0] . PHP_EOL;
+echo $name[1] . PHP_EOL;
+echo $name[2] . PHP_EOL;
+echo $name[3] . PHP_EOL;
+
+
 
