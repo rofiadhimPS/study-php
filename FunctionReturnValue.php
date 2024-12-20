@@ -1,6 +1,6 @@
 <?php
 
-function sum(int $first, int $second)
+function sum(int $first, int $second): int //type return value
 {
     $total = $first + $second;
     return $total;
@@ -12,7 +12,7 @@ var_dump($result);
 $result = sum(100,100);
 var_dump($result);
 
-function getFinalValue(int $value)
+function getFinalValue(int $value): string //type return value
 {
     if($value >= 80) {
         return "A";
