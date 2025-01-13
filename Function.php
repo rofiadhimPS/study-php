@@ -12,3 +12,6 @@ $rajab->name = "Rajab";
 
 $rajab->sayHello(null);
 
+$adhim->info();
+$rajab->info();
+

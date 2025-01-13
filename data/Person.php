@@ -15,4 +15,8 @@ class Person
             echo "Hi $name, my name $this->name" . PHP_EOL;
         }
     }
+
+    function info(){
+        echo "AUTHOR : " . self::AUTHOR . PHP_EOL; // self keyword to call the constant in same class
+    }
 }
