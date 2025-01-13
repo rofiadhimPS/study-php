@@ -8,6 +8,12 @@ class Person
     var ?string $address = null; // nullable
     var string $country = "Indonesia"; // set default value
 
+    function __construct(string $name, ?string $address)
+    {
+        $this->name = $name;
+        $this->address = $address;
+    }
+
     function sayHello(?string $name){
         if(is_null($name)){
             echo "Hi, my name $this->name" . PHP_EOL;
