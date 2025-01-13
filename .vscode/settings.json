@@ -3,5 +3,7 @@
         "Adhim",
         "Bulukumba",
         "Rofiadhim"
-    ]
+    ],
+    
+    "files.associations": { "*.module": "php" }
 }

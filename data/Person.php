@@ -25,4 +25,10 @@ class Person
     function info(){
         echo "AUTHOR : " . self::AUTHOR . PHP_EOL; // self keyword to call the constant in same class
     }
+
+    function __destruct()
+    {
+        echo "Object person $this->name is destroyed" . PHP_EOL;
+    }
+    
 }
