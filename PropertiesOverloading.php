@@ -48,3 +48,6 @@ echo "Last Name : $zero->lastName" . PHP_EOL;
 
 $zero->sayHello("Adhim", "Rajab");
 Zero::sayHello("Rofiadhim", "Rajab");
+
+
+
