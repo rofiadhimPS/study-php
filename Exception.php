@@ -1,6 +1,6 @@
 <?php
 
-require_once "exception/ValidationExecpion.php";
+require_once "exception/ValidationException.php";
 require_once "data/LoginRequest.php";
 require_once "helper/Validation.php";
 
