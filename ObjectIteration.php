@@ -7,18 +7,29 @@ class Data implements IteratorAggregate
     private string $third = "Third";
     protected string $four = "Forth";
 
+    // public function getIterator(): Traversable
+    // {
+    //     $array = [
+    //         "first" => $this->first,
+    //         "second" => $this->second,
+    //         "third" => $this->third,
+    //         "four" => $this->four,
+    //     ];
+
+    //     $iterator = new ArrayIterator($array);
+
+    //     return $iterator;
+    // }
+
     public function getIterator(): Traversable
     {
-        $array = [
-            "first" => $this->first,
-            "second" => $this->second,
-            "third" => $this->third,
-            "four" => $this->four,
-        ];
+       
+        yield "first" => $this->first;
+        yield "second" => $this->second;
+        yield "third" => $this->third;
+        yield "four" => $this->four;
 
-        $iterator = new ArrayIterator($array);
 
-        return $iterator;
     }
 }
 
